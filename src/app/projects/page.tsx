@@ -29,7 +29,7 @@ export default function ProjectsPage() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="grid grid-cols-1 sm:grid-cols-2 gap-6"
       >
-        <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div className=" p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
             [Project Name 1]
           </h2>
@@ -49,7 +49,7 @@ export default function ProjectsPage() {
           </div>
         </div>
 
-        <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div className=" p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
             [Project Name 2]
           </h2>
@@ -69,7 +69,7 @@ export default function ProjectsPage() {
           </div>
         </div>
 
-        <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div className=" p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
             [Project Name 3]
           </h2>
@@ -89,7 +89,7 @@ export default function ProjectsPage() {
           </div>
         </div>
 
-        <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div className=" p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
             [Project Name 4]
           </h2>

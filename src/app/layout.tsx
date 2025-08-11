@@ -25,7 +25,7 @@ export default function RootLayout({
           <Navbar />
           <InfoBar />
           <main className="relative z-10 min-h-screen">{children}</main>
-          <footer className="relative z-10 bg-gray-100 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 text-center py-4 text-gray-600 dark:text-gray-300">
+          <footer className="relative z-10  bg-opacity-80 dark:bg-opacity-80 text-center py-4 text-gray-600 dark:text-gray-300">
             <p>&copy; {new Date().getFullYear()} [Your Name]. All rights reserved.</p>
           </footer>
         </ThemeProvider>

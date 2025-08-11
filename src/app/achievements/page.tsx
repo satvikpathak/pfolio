@@ -32,13 +32,13 @@ export default function AchievementsPage() {
           Professional Milestones
         </h2>
         <ul className="space-y-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
-          <li className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+          <li className=" p-4 rounded-lg">
             <strong>[Year, e.g., 2023]</strong>: Led development of [Project Name], resulting in [specific impact, e.g., 50% increase in user engagement].
           </li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+          <li className=" p-4 rounded-lg">
             <strong>[Year, e.g., 2022]</strong>: Received [Award Name, e.g., Best Developer Award] at [Event/Organization].
           </li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+          <li className=" p-4 rounded-lg">
             <strong>[Year, e.g., 2021]</strong>: Contributed to [Open Source Project], with [specific contribution, e.g., 10+ merged pull requests].
           </li>
         </ul>
@@ -54,10 +54,10 @@ export default function AchievementsPage() {
           Certifications
         </h2>
         <ul className="space-y-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
-          <li className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+          <li className=" p-4 rounded-lg">
             <strong>[Year, e.g., 2024]</strong>: [Certification Name, e.g., AWS Certified Developer] from [Issuing Organization].
           </li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+          <li className=" p-4 rounded-lg">
             <strong>[Year, e.g., 2023]</strong>: [Certification Name, e.g., Google Cloud Professional Architect] from [Issuing Organization].
           </li>
         </ul>
@@ -72,10 +72,10 @@ export default function AchievementsPage() {
           Personal Achievements
         </h2>
         <ul className="space-y-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
-          <li className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+          <li className=" p-4 rounded-lg">
             <strong>[Year, e.g., 2023]</strong>: Completed [Personal Goal, e.g., a marathon] in [Location/Event].
           </li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+          <li className=" p-4 rounded-lg">
             <strong>[Year, e.g., 2022]</strong>: Organized [Event, e.g., a local tech meetup] for [Number] attendees.
           </li>
         </ul>

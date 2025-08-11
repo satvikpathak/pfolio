@@ -46,12 +46,12 @@ export default function AboutPage() {
           Skills
         </h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
-          <li className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">JavaScript / TypeScript</li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">React / Next.js</li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">Node.js</li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">CSS / Tailwind CSS</li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">[Add Skill, e.g., Python]</li>
-          <li className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">[Add Skill, e.g., AWS]</li>
+          <li className=" p-3 rounded-lg">JavaScript / TypeScript</li>
+          <li className=" p-3 rounded-lg">React / Next.js</li>
+          <li className=" p-3 rounded-lg">Node.js</li>
+          <li className=" p-3 rounded-lg">CSS / Tailwind CSS</li>
+          <li className=" p-3 rounded-lg">[Add Skill, e.g., Python]</li>
+          <li className=" p-3 rounded-lg">[Add Skill, e.g., AWS]</li>
         </ul>
       </motion.section>
 

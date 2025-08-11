@@ -13,7 +13,7 @@ export default function InfoBar() {
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed z-10 lg:left-0 lg:top-0 lg:bottom-0 lg:w-64 w-full bottom-0 lg:h-full h-16 bg-gray-100 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 flex lg:flex-col flex-row items-center lg:items-start justify-center lg:justify-start lg:p-6 p-4 space-y-4 lg:space-y-6 space-x-4 lg:space-x-0"
+      className="fixed z-10 lg:left-0 lg:top-0 lg:bottom-0 lg:w-64 w-full bottom-0 lg:h-full h-16  bg-opacity-80 dark:bg-opacity-80 flex lg:flex-col flex-row items-center lg:items-start justify-center lg:justify-start lg:p-6 p-4 space-y-4 lg:space-y-6 space-x-4 lg:space-x-0"
     >
       <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100 hidden lg:block">
         Connect

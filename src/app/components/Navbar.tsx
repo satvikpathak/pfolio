@@ -32,7 +32,7 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 right-0 z-20 w-full sm:w-auto bg-gray-100 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 p-4 sm:p-6"
+      className="fixed top-0 right-0 z-20 w-full sm:w-auto  bg-opacity-80 dark:bg-opacity-80 p-4 sm:p-6"
     >
       <div className="flex items-center justify-between sm:justify-end">
         {/* Hamburger Menu for Mobile */}
@@ -47,7 +47,7 @@ export default function Navbar() {
         <div
           className={`${
             isOpen ? 'flex' : 'hidden'
-          } sm:flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 absolute sm:static top-16 left-0 w-full sm:w-auto bg-gray-100 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 sm:bg-transparent sm:dark:bg-transparent p-4 sm:p-0`}
+          } sm:flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 absolute sm:static top-16 left-0 w-full sm:w-auto  bg-opacity-80 dark:bg-opacity-80 sm:bg-transparent sm:dark:bg-transparent p-4 sm:p-0`}
         >
           {navLinks.map((link) => (
             <Link
